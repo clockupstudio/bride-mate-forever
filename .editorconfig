@@ -1,0 +1,12 @@
+root = true
+
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.cs]
+# NOTE: Unity uses CRLF if create it inside Unity Editor.
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
