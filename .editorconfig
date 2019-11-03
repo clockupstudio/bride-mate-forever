@@ -5,7 +5,8 @@ charset = utf-8
 trim_trailing_whitespace = true
 
 [*.cs]
-# NOTE: Unity uses CRLF if create it inside Unity Editor.
+# NOTE: Unity uses CRLF as line ending and UTF-8 with BOM if you create it inside Unity Editor.
+charset = utf-8-bom
 end_of_line = crlf
 indent_size = 4
 indent_style = space
