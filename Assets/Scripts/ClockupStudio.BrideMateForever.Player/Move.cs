@@ -19,7 +19,8 @@ namespace ClockupStudio.BrideMateForever.Player
             _rb2d.velocity = new Vector2(Velocity * Direction * Time.fixedDeltaTime, 0);
         }
 
-        public void SetDirection(int dir) {
+        public void SetDirection(int dir)
+        {
             Debug.Log($"Move to direction {dir}");
             Direction = dir;
         }

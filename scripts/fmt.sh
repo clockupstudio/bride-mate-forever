@@ -2,4 +2,7 @@
 
 # fmt.sh uses for format .cs source code in this project.
 
-dotnet-format -w $(dirname $0)/../Assembly-CSharp.csproj
+for proj in $(ls $(dirname $0)/../*.csproj)
+do
+    dotnet-format -w $proj
+done
