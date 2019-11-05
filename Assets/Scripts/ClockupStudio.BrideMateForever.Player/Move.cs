@@ -7,7 +7,7 @@ namespace ClockupStudio.BrideMateForever.Player
         private Rigidbody2D _rb2d;
 
         public float Velocity = 0.5f;
-        public int Direction = 1;
+        public MoveDirection Direction = MoveDirection.Right;
 
         private void Start()
         {
@@ -16,10 +16,10 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private void FixedUpdate()
         {
-            _rb2d.velocity = new Vector2(Velocity * Direction * Time.fixedDeltaTime, 0);
+            _rb2d.velocity = new Vector2(Velocity * (int)Direction * Time.fixedDeltaTime, 0);
         }
 
-        public void SetDirection(int dir)
+        public void SetDirection(MoveDirection dir)
         {
             Debug.Log($"Move to direction {dir}");
             Direction = dir;

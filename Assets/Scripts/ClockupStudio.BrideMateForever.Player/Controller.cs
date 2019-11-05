@@ -3,12 +3,6 @@ using UnityEngine.Events;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
-
-    [System.Serializable]
-    public class MoveDirectionEvent : UnityEvent<int>
-    {
-    }
-
     public class Controller : MonoBehaviour
     {
 
@@ -28,15 +22,15 @@ namespace ClockupStudio.BrideMateForever.Player
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                MoveEvent.Invoke(-1);
+                MoveEvent.Invoke(MoveDirection.Left);
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
-                MoveEvent.Invoke(1);
+                MoveEvent.Invoke(MoveDirection.Right);
             }
             else
             {
-                MoveEvent.Invoke(0);
+                MoveEvent.Invoke(MoveDirection.NoMove);
             }
         }
     }
