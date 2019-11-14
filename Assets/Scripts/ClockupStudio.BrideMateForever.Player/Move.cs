@@ -4,19 +4,16 @@ namespace ClockupStudio.BrideMateForever.Player
 {
     public class Move : MonoBehaviour
     {
-        private Rigidbody2D _rb2d;
-
         public float Velocity = 0.5f;
         public MoveDirection Direction = MoveDirection.Right;
 
         private void Start()
         {
-            _rb2d = GetComponent<Rigidbody2D>();
         }
 
         private void FixedUpdate()
         {
-            _rb2d.velocity = new Vector2(Velocity * (int)Direction * Time.fixedDeltaTime, 0);
+            transform.Translate(new Vector2(Velocity * (int)Direction * Time.fixedDeltaTime, 0));
         }
 
         public void SetDirection(MoveDirection dir)
