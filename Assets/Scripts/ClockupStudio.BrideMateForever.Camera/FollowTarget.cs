@@ -12,7 +12,7 @@ namespace ClockupStudio.BrideMateForever.Camera
 
         private void Start()
         {
-             _pos = transform.position;
+            _pos = transform.position;
         }
 
         void Update()
