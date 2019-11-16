@@ -47,7 +47,7 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private void ProcessJump()
         {
-            if (Input.GetKey(JumpKey))
+            if (Input.GetKeyDown(JumpKey))
                 JumpCommand.Invoke(true);
             else
                 JumpCommand.Invoke(false);
