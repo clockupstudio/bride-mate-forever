@@ -4,24 +4,22 @@ using UnityEngine;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
-    [RequireComponent(typeof(Direction))]
+    [RequireComponent(typeof(InputHandler))]
     public class AnimationDirection : MonoBehaviour
     {
-        private Direction _dircomp;
+        private InputHandler _handler;
 
-        // Start is called before the first frame update
         void Start()
         {
-            _dircomp = GetComponent<Direction>();
+            _handler = GetComponent<InputHandler>();
         }
 
-        // Update is called once per frame
         void Update()
         {
-            if (_dircomp.MoveDirection == MoveDirection.NoMove) return;
+            if (_handler.MoveDirection == MoveKey.None) return;
 
             var scale = transform.localScale;
-            scale.x = Mathf.Abs(scale.x) * (int)_dircomp.MoveDirection;
+            scale.x = Mathf.Abs(scale.x) * (int)_handler.MoveDirection;
             transform.localScale = scale;
         }
     }

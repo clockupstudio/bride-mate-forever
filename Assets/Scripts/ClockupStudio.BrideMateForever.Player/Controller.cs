@@ -1,36 +1,71 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
+
+    [System.Serializable]
+    public class JumpCommand : UnityEvent<bool>
+    {
+    }
+
+    [System.Serializable]
+    public class MoveCommand : UnityEvent<MoveKey>
+    {
+    }
+
+    public enum MoveKey
+    {
+        None = 0,
+        Left = -1,
+        Right = 1,
+    }
+
     public class Controller : MonoBehaviour
     {
 
-        public MoveDirectionEvent MoveEvent;
+        // All available controller keys.
+        public KeyCode LeftKey = KeyCode.LeftArrow;
+        public KeyCode RightKey = KeyCode.RightArrow;
+        public KeyCode JumpKey = KeyCode.Space;
 
-        // Start is called before the first frame update
+        public JumpCommand JumpCommand;
+        public MoveCommand MoveCommand;
+
         private void Start()
         {
-            if (MoveEvent == null)
-            {
-                MoveEvent = new MoveDirectionEvent();
-            }
+            JumpCommand = JumpCommand ?? new JumpCommand();
+            MoveCommand = MoveCommand ?? new MoveCommand();
         }
 
-        // Update is called once per frame
         private void Update()
         {
-            if (Input.GetKey(KeyCode.LeftArrow))
+            ProcessMove();
+            ProcessJump();
+        }
+
+        private void ProcessJump()
+        {
+            if (Input.GetKey(JumpKey))
+                JumpCommand.Invoke(true);
+            else
+                JumpCommand.Invoke(false);
+        }
+
+        private void ProcessMove()
+        {
+            if (Input.GetKey(LeftKey))
             {
-                MoveEvent.Invoke(MoveDirection.Left);
+                MoveCommand.Invoke(MoveKey.Left);
             }
-            else if (Input.GetKey(KeyCode.RightArrow))
+            else if (Input.GetKey(RightKey))
             {
-                MoveEvent.Invoke(MoveDirection.Right);
+                MoveCommand.Invoke(MoveKey.Right);
             }
             else
             {
-                MoveEvent.Invoke(MoveDirection.NoMove);
+                MoveCommand.Invoke(MoveKey.None);
             }
         }
     }
