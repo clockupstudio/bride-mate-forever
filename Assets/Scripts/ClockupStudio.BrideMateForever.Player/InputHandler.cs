@@ -5,21 +5,18 @@ namespace ClockupStudio.BrideMateForever.Player
 {
     public class InputHandler : MonoBehaviour
     {
-        public MoveKey MoveDirection = MoveKey.Right;
-
-        public bool PressedJump
-        {
-            set; get;
-        }
+        public MoveKey MoveDirection = MoveKey.None;
+        public bool PressedJump;
 
         public void OnPressedMovement(MoveKey dir)
         {
             MoveDirection = dir;
-            Debug.Log($"move: {MoveDirection}");
         }
 
         public void OnPressedJump(bool pressed)
         {
+            // preventing pressed holding.
+            if (PressedJump) return;
             PressedJump = pressed;
         }
     }

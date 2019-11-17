@@ -1,6 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
@@ -24,12 +25,7 @@ namespace ClockupStudio.BrideMateForever.Player
 
     public class Controller : MonoBehaviour
     {
-
         // All available controller keys.
-        public KeyCode LeftKey = KeyCode.LeftArrow;
-        public KeyCode RightKey = KeyCode.RightArrow;
-        public KeyCode JumpKey = KeyCode.Space;
-
         public JumpCommand JumpCommand;
         public MoveCommand MoveCommand;
 
@@ -39,33 +35,26 @@ namespace ClockupStudio.BrideMateForever.Player
             MoveCommand = MoveCommand ?? new MoveCommand();
         }
 
-        private void Update()
+        public void OnMove(InputAction.CallbackContext ctx)
         {
-            ProcessMove();
-            ProcessJump();
-        }
-
-        private void ProcessJump()
-        {
-            if (Input.GetKeyDown(JumpKey))
-                JumpCommand.Invoke(true);
-            else
-                JumpCommand.Invoke(false);
-        }
-
-        private void ProcessMove()
-        {
-            if (Input.GetKey(LeftKey))
-            {
+            var vec2 = ctx.ReadValue<Vector2>();
+            Debug.Log(vec2);
+            if (vec2 == Vector2.left)
                 MoveCommand.Invoke(MoveKey.Left);
-            }
-            else if (Input.GetKey(RightKey))
-            {
+            else if (vec2 == Vector2.right)
                 MoveCommand.Invoke(MoveKey.Right);
-            }
             else
-            {
                 MoveCommand.Invoke(MoveKey.None);
+        }
+
+        public void OnJump(InputAction.CallbackContext ctx)
+        {
+            Debug.Log($"action phase: {ctx.phase}");
+            switch (ctx.phase)
+            {
+                case InputActionPhase.Performed:
+                    JumpCommand.Invoke(true);
+                    return;
             }
         }
     }
