@@ -29,7 +29,6 @@ namespace ClockupStudio.BrideMateForever.Player
                 _handler.PressedJump = false;
             }
             _rb2d.velocity = vec2;
-            _anim.SetBool(Animator.StringToHash("isRun"), _handler.MoveDirection != MoveKey.None);
         }
     }
 }
