@@ -10,10 +10,13 @@ namespace ClockupStudio.BrideMateForever.Player
         private InputHandler _handler;
         private Rigidbody2D _rb2d;
 
+        private Animator _anim;
+
         private void Start()
         {
             _handler = GetComponent<InputHandler>();
             _rb2d = GetComponent<Rigidbody2D>();
+            _anim = GetComponent<Animator>();
         }
 
         private void FixedUpdate()
@@ -26,6 +29,7 @@ namespace ClockupStudio.BrideMateForever.Player
                 _handler.PressedJump = false;
             }
             _rb2d.velocity = vec2;
+            _anim.SetBool(Animator.StringToHash("isRun"), _handler.MoveDirection != MoveKey.None);
         }
     }
 }
