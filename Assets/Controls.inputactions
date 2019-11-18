@@ -24,7 +24,7 @@
             ],
             "bindings": [
                 {
-                    "name": "Arrow Keyboard",
+                    "name": "Arrows",
                     "id": "7a0cc695-1eb7-4d99-92e5-3a13eea22bbe",
                     "path": "2DVector",
                     "interactions": "",
@@ -79,7 +79,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "WASD Keyboard",
+                    "name": "WASD",
                     "id": "e5983c33-94f6-4877-9000-06981e026448",
                     "path": "2DVector",
                     "interactions": "",
