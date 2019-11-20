@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: dc4158e64c1844d2fbc67f22d4fa3a51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5668104086459766436
+    second: backgroung_palettle_0
+  - first:
+      213: 9189635880582308947
+    second: backgroung_palettle_1
+  - first:
+      213: -3777149265426353852
+    second: backgroung_palettle_2
+  - first:
+      213: 8364144190112758258
+    second: backgroung_palettle_3
+  - first:
+      213: -1115444791252958415
+    second: backgroung_palettle_4
+  - first:
+      213: 1055359480470912829
+    second: backgroung_palettle_5
+  - first:
+      213: -989022385613868422
+    second: backgroung_palettle_6
+  - first:
+      213: 1428472643461695234
+    second: backgroung_palettle_7
+  - first:
+      213: 314859098309011049
+    second: backgroung_palettle_8
+  - first:
+      213: 2289879141213220529
+    second: backgroung_palettle_9
+  - first:
+      213: 6652639912169558569
+    second: backgroung_palettle_10
+  - first:
+      213: 5687801562809954807
+    second: backgroung_palettle_11
+  - first:
+      213: 305224409919954656
+    second: backgroung_palettle_12
+  - first:
+      213: 4367884996216709604
+    second: backgroung_palettle_13
+  - first:
+      213: -6183340620238692176
+    second: backgroung_palettle_14
+  - first:
+      213: 5601729617751659710
+    second: backgroung_palettle_15
+  - first:
+      213: -2473135630675289799
+    second: backgroung_palettle_16
+  - first:
+      213: 2177556426523388214
+    second: backgroung_palettle_17
+  - first:
+      213: 6378425092438007767
+    second: backgroung_palettle_18
+  - first:
+      213: -6104903980693716135
+    second: backgroung_palettle_19
+  - first:
+      213: 1997363409320597536
+    second: backgroung_palettle_20
+  - first:
+      213: -4619780702733285322
+    second: backgroung_palettle_21
+  - first:
+      213: 5545008839261270999
+    second: backgroung_palettle_22
+  - first:
+      213: -6250650167476599456
+    second: backgroung_palettle_23
+  - first:
+      213: -4824688176852604726
+    second: backgroung_palettle_24
+  - first:
+      213: -548229614750234553
+    second: backgroung_palettle_25
+  - first:
+      213: -6412730885781618358
+    second: backgroung_palettle_26
+  - first:
+      213: -9109686062147550759
+    second: backgroung_palettle_27
+  - first:
+      213: -2857884994489635827
+    second: backgroung_palettle_28
+  - first:
+      213: 3695669756469137465
+    second: backgroung_palettle_29
+  - first:
+      213: 2073487850982890737
+    second: backgroung_palettle_30
+  - first:
+      213: -2620983819730957808
+    second: backgroung_palettle_31
+  - first:
+      213: 7017014823834037971
+    second: backgroung_palettle_32
+  - first:
+      213: -2867890166095280610
+    second: backgroung_palettle_33
+  - first:
+      213: -1337079416811386311
+    second: backgroung_palettle_34
+  - first:
+      213: 2299849285525842285
+    second: backgroung_palettle_35
+  - first:
+      213: 500608333862637517
+    second: backgroung_palettle_36
+  - first:
+      213: -1266443058797789785
+    second: backgroung_palettle_37
+  - first:
+      213: 6450953624684660931
+    second: backgroung_palettle_38
+  - first:
+      213: -349466724085560212
+    second: backgroung_palettle_39
+  - first:
+      213: 3758933466674718348
+    second: backgroung_palettle_40
+  - first:
+      213: 1057858187224287458
+    second: backgroung_palettle_41
+  - first:
+      213: -9190778249499951568
+    second: backgroung_palettle_42
+  - first:
+      213: -1253374765669460489
+    second: backgroung_palettle_43
+  - first:
+      213: 7239723061879126620
+    second: backgroung_palettle_44
+  - first:
+      213: 4912551733148904798
+    second: backgroung_palettle_45
+  - first:
+      213: 8588345378033147995
+    second: backgroung_palettle_46
+  - first:
+      213: 2057286272447145111
+    second: backgroung_palettle_47
+  - first:
+      213: -2892308683858202842
+    second: backgroung_palettle_48
+  - first:
+      213: 8075707657955859323
+    second: backgroung_palettle_49
+  - first:
+      213: 4618890900646239796
+    second: backgroung_palettle_50
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backgroung_palettle_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61627e78545445fd8ec803924e89985
+      internalID: 5668104086459766436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7328dc516c9754b91ae33e93af2ebeff
+      internalID: 9189635880582308947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2ceb1f032714369bf05be3ba13e4df
+      internalID: -3777149265426353852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23fecc4fb1e4971bbe8606d4e96ce9
+      internalID: 8364144190112758258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d959112f9e3ff4b08950d996e39c3679
+      internalID: -1115444791252958415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdabadbc02da4ee1b68b115a45a0b54
+      internalID: 1055359480470912829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2d86dc1ecd44a4fa5c908e9e0f8608
+      internalID: -989022385613868422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb814a0eb39e045c98cbb680cb87a8c8
+      internalID: 1428472643461695234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e56ec3450e4c43f8a2c2fd117672367
+      internalID: 314859098309011049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ab955efc364c398fcb7e35a2e9f21
+      internalID: 2289879141213220529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 260
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2142800d9930f4b9ba4be0b561c43307
+      internalID: 6652639912169558569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476e787f64f694a75925571a483f9ff6
+      internalID: 5687801562809954807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac4bbaa7a471423c93c5954976ec526
+      internalID: 305224409919954656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6909b6901954404b4ab70609c2497e
+      internalID: 4367884996216709604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d829f2886b146c3a09b9a9ebf70011
+      internalID: -6183340620238692176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea54a1f79d17341179ae0e495a4eeba9
+      internalID: 5601729617751659710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c301eb65dbda440faa6ab13a795b330
+      internalID: -2473135630675289799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226380177de74267959a718b78987f2
+      internalID: 2177556426523388214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dadb8172079a4b2785a4d2ab18c7a2d
+      internalID: 6378425092438007767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe9eaec2ad1743058441997f5aedfc5
+      internalID: -6104903980693716135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16afb59dd116740adac840918f66ee43
+      internalID: 1997363409320597536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 240
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d76b135efe354635912ff771c1b15b3
+      internalID: -4619780702733285322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 220
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dc8ee7b1246445487f943103f2b69d
+      internalID: 5545008839261270999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 220
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492fda0b029264906873b91bbb93a535
+      internalID: -6250650167476599456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 220
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc359c445bef4a09bbaa441976c84fb
+      internalID: -4824688176852604726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 220
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee6959ec37a6462884497530eb964a2
+      internalID: -548229614750234553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 220
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b01719aad67942b2a6f3074a8619a7f
+      internalID: -6412730885781618358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db7a9f2eb3304a23a56168fe1adbbe7
+      internalID: -9109686062147550759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb540ed6451294dbeb8d583dfd8fd0eb
+      internalID: -2857884994489635827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575a043d53ac0494388f193f9fe2770e
+      internalID: 3695669756469137465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fcdd58c173e43a7a9233a72a9e7b77
+      internalID: 2073487850982890737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ebdf106f99e40c09d56331901a257f
+      internalID: -2620983819730957808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_32
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f544844eca741b58b03c6e96149e6e
+      internalID: 7017014823834037971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f186a1c9064551b394898f9064a23
+      internalID: -2867890166095280610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_34
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 160
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c8f9125c35456398ba03ae8ab9ae5
+      internalID: -1337079416811386311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e37a636a8dc540f89386847d7972155
+      internalID: 2299849285525842285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_36
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214d9fbf2de12406aaea0379495a378f
+      internalID: 500608333862637517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62555607aa2546fe8ff8c303c73666a
+      internalID: -1266443058797789785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c28baa0f3a424792b858f64764022e8
+      internalID: 6450953624684660931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f1c904e52794ce0b7c5a09bf82995d
+      internalID: -349466724085560212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_40
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b493736dbd4b48b400c63283d7763
+      internalID: 3758933466674718348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e149d61907a4d3bb3ee1030a0c291c
+      internalID: 1057858187224287458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_42
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 140
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216ece3bc3b8420bb20e5a1766566be
+      internalID: -9190778249499951568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1812620f3dc476bacdc1db49ce0eca
+      internalID: -1253374765669460489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_44
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6b5d9a492414a459eec37418f3cdbf
+      internalID: 7239723061879126620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_45
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014ab16494eef47b1b8c1cfeeb00cf0b
+      internalID: 4912551733148904798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_46
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52d44c10a7174f6081efd7533d15824
+      internalID: 8588345378033147995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aca51bb0d464b2597bed0930d0a7d0
+      internalID: 2057286272447145111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_48
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c318d33ee6fc4da89f593e1bac505ed
+      internalID: -2892308683858202842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_49
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654f2a12fabae4f83b590ec96472893f
+      internalID: 8075707657955859323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgroung_palettle_50
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 120
+        width: 33.333332
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d09e391d524902b57525c5a08faba
+      internalID: 4618890900646239796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2efe1b200c2794f3fb344a2d0fbef9ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
