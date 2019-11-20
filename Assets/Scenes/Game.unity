@@ -1928,9 +1928,9 @@ GameObject:
   - component: {fileID: 1097194921}
   - component: {fileID: 1097194923}
   - component: {fileID: 1097194922}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DogSprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1943,7 +1943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097194920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.03, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1692273416}
@@ -2010,8 +2010,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1598956121
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 5624506614292517920, guid: 6dcf0199c31ed4e8a9601bbc19817837,
     type: 3}
@@ -3066,9 +3066,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1692273416}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Dog
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3081,7 +3081,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692273415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.19, y: 1.156, z: 0}
+  m_LocalPosition: {x: 17.28, y: 1.156, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1097194921}
