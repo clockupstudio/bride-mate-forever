@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 3873574559181898194}
   - component: {fileID: 3873574559181898192}
   - component: {fileID: 3873574559181898193}
+  - component: {fileID: 1577573469}
   m_Layer: 0
   m_Name: DogSprite
   m_TagString: Untagged
@@ -139,3 +140,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0642166, y: 1.0241799}
   m_EdgeRadius: 0
+--- !u!95 &1577573469
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873574559181898195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab2ef468c48b8af49b7d30ee5ed45b42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
