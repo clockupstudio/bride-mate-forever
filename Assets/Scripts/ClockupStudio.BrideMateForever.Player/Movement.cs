@@ -12,6 +12,8 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private Animator _anim;
 
+        private bool _isDisabled = false;
+
         private void Start()
         {
             _handler = GetComponent<InputHandler>();
@@ -21,6 +23,10 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private void FixedUpdate()
         {
+            if (_isDisabled) {
+                return;
+            }
+
             var vec2 = _rb2d.velocity;
             vec2.x = Velocity.x * (int)_handler.MoveDirection * Time.fixedDeltaTime;
             if (_handler.PressedJump)
@@ -29,6 +35,11 @@ namespace ClockupStudio.BrideMateForever.Player
                 _handler.PressedJump = false;
             }
             _rb2d.velocity = vec2;
+        }
+
+        public void Disable(bool isDisable)
+        {
+            _isDisabled = isDisable;
         }
     }
 }
