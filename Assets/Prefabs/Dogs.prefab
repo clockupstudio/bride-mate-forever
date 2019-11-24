@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1577573469}
   - component: {fileID: 1355478224}
   - component: {fileID: 1355478223}
+  - component: {fileID: 3737436155442336780}
   m_Layer: 0
   m_Name: DogSprite
   m_TagString: Enemy
@@ -267,6 +268,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb05ec1ab89194a8ebcb4db26d1aa90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3737436155442336780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873574559181898195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66838c9e6da90431783d0abab6e418ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   paintDamageColor: {r: 0.05882353, g: 0.21960784, b: 0.05882353, a: 1}

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4431317274153911689}
   - component: {fileID: 216822216}
   - component: {fileID: 216822217}
+  - component: {fileID: 216822218}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -208,7 +209,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bounceBack: -4
   bounceBackDelay: 0.3
-  paintDamageColor: {r: 0.05882353, g: 0.21960784, b: 0.05882353, a: 1}
   bounceUp: 16
   bounceUpDelay: 0.1
 --- !u!82 &216822217
@@ -307,3 +307,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &216822218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431317274153911793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66838c9e6da90431783d0abab6e418ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintDamageColor: {r: 0.05882353, g: 0.21960784, b: 0.05882353, a: 1}

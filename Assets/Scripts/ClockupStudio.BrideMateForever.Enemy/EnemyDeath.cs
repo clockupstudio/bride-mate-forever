@@ -1,28 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ClockupStudio.BrideMateForever.SpriteUtils;
 
 namespace ClockupStudio.BrideMateForever.Enemy
 {
     public class EnemyDeath : MonoBehaviour
     {
         private AudioSource _audioSource;
-        private SpriteRenderer _sprite;
-        private Shader _shaderGUItext;
-        private Shader _shaderSpritesDefault;
-        public Color paintDamageColor = new Color32(15, 56, 15, 255);
+        private PaintDamage _paintDamage;
 
         void Start()
         {
             _audioSource = GetComponent<AudioSource>();
-            _sprite = GetComponent<SpriteRenderer>();
-            _shaderGUItext = Shader.Find("GUI/Text Shader");
-            _shaderSpritesDefault = Shader.Find("Sprites/Default");
+            _paintDamage = GetComponent<PaintDamage>();
         }
 
         public void Death()
         {
-            PaintDamage();
+            _paintDamage.AddPaintDamage();
             StartCoroutine("PlaySound");
         }
 
@@ -31,12 +27,8 @@ namespace ClockupStudio.BrideMateForever.Enemy
             _audioSource.Play();
             yield return new WaitWhile(()=> _audioSource.isPlaying);
             gameObject.SetActive(false);
+            _paintDamage.RemovePaintDamage();
         }
 
-        private void PaintDamage()
-        {
-            _sprite.material.shader = _shaderGUItext;
-            _sprite.color = paintDamageColor;
-        }
     }
 }
