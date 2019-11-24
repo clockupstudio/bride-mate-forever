@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using ClockupStudio.BrideMateForever.Enemy;
+using ClockupStudio.BrideMateForever.SpriteUtils;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
@@ -10,13 +11,9 @@ namespace ClockupStudio.BrideMateForever.Player
         private AudioSource _audio;
         private Movement _movement;
         private Rigidbody2D _rb2d;
-        private SpriteRenderer _sprite;
-        private Shader _shaderGUItext;
-        private Shader _shaderSpritesDefault;
-
+        private PaintDamage _paintDamage;
         public float bounceBack = -4f;
         public float bounceBackDelay = .3f;
-        public Color paintDamageColor = new Color32(15, 56, 15, 255);
         public float bounceUp = 16f;
         public float bounceUpDelay = .1f;
 
@@ -25,9 +22,7 @@ namespace ClockupStudio.BrideMateForever.Player
             _audio = GetComponent<AudioSource>();
             _movement = GetComponent<Movement>();
             _rb2d = GetComponent<Rigidbody2D>();
-            _sprite = GetComponent<SpriteRenderer>();
-            _shaderGUItext = Shader.Find("GUI/Text Shader");
-            _shaderSpritesDefault = Shader.Find("Sprites/Default");
+            _paintDamage = GetComponent<PaintDamage>();
         }
         private void OnCollisionEnter2D(Collision2D other)
         {
@@ -46,7 +41,6 @@ namespace ClockupStudio.BrideMateForever.Player
                 {
                     BounceUp();
                     StartCoroutine("CancelBounceUp");
-                    //other.gameObject.SetActive(false);
                     other.gameObject.GetComponent<EnemyDeath>().Death();
                 }
             }
@@ -56,8 +50,8 @@ namespace ClockupStudio.BrideMateForever.Player
         {
             _audio.Play();
             _movement.Disable(true);
+            _paintDamage.AddPaintDamage();
             BounceBackward();
-            PaintDamage();
 
             StartCoroutine("Recover");
         }
@@ -66,8 +60,8 @@ namespace ClockupStudio.BrideMateForever.Player
         {
             yield return new WaitForSeconds(bounceBackDelay);
             _movement.Disable(false);
+            _paintDamage.RemovePaintDamage();
             CancelBounce();
-            RemovePaintDamage();
         }
 
         private void BounceBackward()
@@ -77,25 +71,12 @@ namespace ClockupStudio.BrideMateForever.Player
             vec2.y = 0;
             _rb2d.velocity = vec2;
         }
-
         private void CancelBounce()
         {
             var vec2 = _rb2d.velocity;
             vec2.x = 0;
             vec2.y = 0;
             _rb2d.velocity = vec2;
-        }
-
-        private void PaintDamage()
-        {
-            _sprite.material.shader = _shaderGUItext;
-            _sprite.color = paintDamageColor;
-        }
-
-        private void RemovePaintDamage()
-        {
-            _sprite.material.shader = _shaderSpritesDefault;
-            _sprite.color = Color.white;
         }
 
         private void BounceUp()
