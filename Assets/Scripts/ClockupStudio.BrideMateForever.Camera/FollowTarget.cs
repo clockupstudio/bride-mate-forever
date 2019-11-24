@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 namespace ClockupStudio.BrideMateForever.Camera
 {
     public class FollowTarget : MonoBehaviour

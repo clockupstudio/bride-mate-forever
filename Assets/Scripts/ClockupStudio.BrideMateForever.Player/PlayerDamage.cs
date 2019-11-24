@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ClockupStudio.BrideMateForever.Enemy;
 
 namespace ClockupStudio.BrideMateForever.Player
 {
@@ -45,7 +46,8 @@ namespace ClockupStudio.BrideMateForever.Player
                 {
                     BounceUp();
                     StartCoroutine("CancelBounceUp");
-                    other.gameObject.SetActive(false);
+                    //other.gameObject.SetActive(false);
+                    other.gameObject.GetComponent<EnemyDeath>().Death();
                 }
             }
         }
