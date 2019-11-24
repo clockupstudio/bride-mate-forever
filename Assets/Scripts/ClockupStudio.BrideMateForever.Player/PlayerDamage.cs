@@ -12,6 +12,12 @@ namespace ClockupStudio.BrideMateForever.Player
         private Shader _shaderGUItext;
         private Shader _shaderSpritesDefault;
 
+        public float bounceBack = -4f;
+        public float bounceBackDelay = .3f;
+        public Color paintDamageColor = new Color32(15, 56, 15, 255);
+        public float bounceUp = 16f;
+        public float bounceUpDelay = .1f;
+
         void Start()
         {
             _movement = GetComponent<Movement>();
@@ -26,8 +32,24 @@ namespace ClockupStudio.BrideMateForever.Player
             {
                 return;
             }
-            Debug.Log("HIT");
 
+            foreach (ContactPoint2D point in other.contacts)
+            {
+                if (point.normal.y == 0)
+                {
+                    Hurt();
+                }
+                else
+                {
+                    BounceUp();
+                    StartCoroutine("CancelBounceUp");
+                    other.gameObject.SetActive(false);
+                }
+            }
+        }
+
+        private void Hurt()
+        {
             _movement.Disable(true);
             BounceBackward();
             PaintDamage();
@@ -37,7 +59,7 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private IEnumerator Recover()
         {
-            yield return new WaitForSeconds(.3f);
+            yield return new WaitForSeconds(bounceBackDelay);
             _movement.Disable(false);
             CancelBounce();
             RemovePaintDamage();
@@ -46,7 +68,7 @@ namespace ClockupStudio.BrideMateForever.Player
         private void BounceBackward()
         {
             var vec2 = _rb2d.velocity;
-            vec2.x = -4 * transform.localScale.x;
+            vec2.x = bounceBack * transform.localScale.x;
             vec2.y = 0;
             _rb2d.velocity = vec2;
         }
@@ -62,13 +84,28 @@ namespace ClockupStudio.BrideMateForever.Player
         private void PaintDamage()
         {
             _sprite.material.shader = _shaderGUItext;
-            _sprite.color = new Color32(15, 56, 15, 255);
+            _sprite.color = paintDamageColor;
         }
 
         private void RemovePaintDamage()
         {
             _sprite.material.shader = _shaderSpritesDefault;
             _sprite.color = Color.white;
+        }
+
+        private void BounceUp()
+        {
+            var vec2 = _rb2d.velocity;
+            vec2.y = bounceUp;
+            _rb2d.velocity = vec2;
+        }
+
+        private IEnumerator CancelBounceUp()
+        {
+            yield return new WaitForSeconds(bounceUpDelay);
+            var vec2 = _rb2d.velocity;
+            vec2.y = 0;
+            _rb2d.velocity = vec2;
         }
     }
 }
