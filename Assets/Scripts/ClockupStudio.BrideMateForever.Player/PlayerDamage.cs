@@ -6,6 +6,7 @@ namespace ClockupStudio.BrideMateForever.Player
 {
     public class PlayerDamage : MonoBehaviour
     {
+        private AudioSource _audio;
         private Movement _movement;
         private Rigidbody2D _rb2d;
         private SpriteRenderer _sprite;
@@ -20,6 +21,7 @@ namespace ClockupStudio.BrideMateForever.Player
 
         void Start()
         {
+            _audio = GetComponent<AudioSource>();
             _movement = GetComponent<Movement>();
             _rb2d = GetComponent<Rigidbody2D>();
             _sprite = GetComponent<SpriteRenderer>();
@@ -50,6 +52,7 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private void Hurt()
         {
+            _audio.Play();
             _movement.Disable(true);
             BounceBackward();
             PaintDamage();
