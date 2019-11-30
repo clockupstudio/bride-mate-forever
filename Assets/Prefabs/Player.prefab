@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 216822216}
   - component: {fileID: 216822217}
   - component: {fileID: 216822218}
+  - component: {fileID: 6383968672723293784}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -174,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4506b3b086b174e25bc83a4871b802de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveDirection: 0
+  MoveDirection: {x: 0, y: 0}
   PressedJump: 0
 --- !u!95 &4431317274153911689
 Animator:
@@ -320,3 +321,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paintDamageColor: {r: 0.05882353, g: 0.21960784, b: 0.05882353, a: 1}
+--- !u!114 &6383968672723293784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431317274153911793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14a04c13bba448b38084850bef773ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

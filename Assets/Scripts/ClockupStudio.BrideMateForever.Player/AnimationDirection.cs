@@ -17,6 +17,7 @@ namespace ClockupStudio.BrideMateForever.Player
         Run,
         Jump,
         Slide,
+        Dead,
     }
 
     [RequireComponent(typeof(Animator))]
@@ -64,6 +65,10 @@ namespace ClockupStudio.BrideMateForever.Player
             else if (_handler.MoveDirection != Vector2.zero)
             {
                 kind = ActionKind.Run;
+            }
+            else if (_anim.GetInteger("Action") == (int)ActionKind.Dead)
+            {
+                return;
             }
 
             Debug.Log($"UpdateAnimation: resolve animation {_anim.GetInteger("Action")}");
