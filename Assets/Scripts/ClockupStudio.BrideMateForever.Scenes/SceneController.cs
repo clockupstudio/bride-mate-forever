@@ -25,14 +25,12 @@ namespace ClockupStudio.BrideMateForever.Scenes
             _started = true;
         }
 
-
         private IEnumerator BeginGame()
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(3f);
             Debug.Log("Begin scene");
             bride.Throw();
             text.SetActive(false);
-            movement.Disable(false);
         }
     }
 }
