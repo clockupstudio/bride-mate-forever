@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12287,6 +12287,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
         type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: MoveCommand.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
       propertyPath: JumpCommand.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 216822210}
@@ -12300,6 +12310,31 @@ PrefabInstance:
       propertyPath: MoveCommand.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 216822212}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216822210}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnSlide
+      objectReference: {fileID: 0}
+    - target: {fileID: 58864666494217321, guid: 6fd647411b4284174bf6251efc001625,
+        type: 3}
+      propertyPath: SlideCommand.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fd647411b4284174bf6251efc001625, type: 3}
 --- !u!1001 &2011022801622523117
@@ -12664,6 +12699,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911793, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911690, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4431317274153911695, guid: 87b264bb1904944828e842b877c38d1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12718,6 +12763,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911694, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911694, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911694, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911694, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911693, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911688, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431317274153911689, guid: 87b264bb1904944828e842b877c38d1d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b264bb1904944828e842b877c38d1d, type: 3}

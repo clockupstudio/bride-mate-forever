@@ -23,12 +23,31 @@ namespace ClockupStudio.BrideMateForever.Player
 
         private void FixedUpdate()
         {
-            if (_isDisabled) {
+            if (_isDisabled)
+            {
+                return;
+            }
+
+            // do not override slide if it's still appear.
+            if (GetComponent<Slide>() != null)
+            {
+                return;
+            }
+
+            // means slide.
+            if (_handler.MoveDirection.y == -1 && _handler.PressedJump && GetComponent<Slide>() == null)
+            {
+                Slide slide = gameObject.AddComponent<Slide>();
+                slide.Rb2D = _rb2d;
+                slide.Do(_handler.MoveDirection);
+                // reset input.
+                _handler.MoveDirection.y = 0;
+                _handler.PressedJump = false;
                 return;
             }
 
             var vec2 = _rb2d.velocity;
-            vec2.x = Velocity.x * (int)_handler.MoveDirection * Time.fixedDeltaTime;
+            vec2.x = Velocity.x * _handler.MoveDirection.x * Time.fixedDeltaTime;
             if (_handler.PressedJump)
             {
                 vec2.y += _rb2d.mass + (Velocity.y * Physics2D.gravity.y * Time.fixedDeltaTime);

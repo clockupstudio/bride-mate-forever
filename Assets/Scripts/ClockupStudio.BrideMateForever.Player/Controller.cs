@@ -12,15 +12,8 @@ namespace ClockupStudio.BrideMateForever.Player
     }
 
     [System.Serializable]
-    public class MoveCommand : UnityEvent<MoveKey>
+    public class MoveCommand : UnityEvent<Vector2>
     {
-    }
-
-    public enum MoveKey
-    {
-        None = 0,
-        Left = -1,
-        Right = 1,
     }
 
     public class Controller : MonoBehaviour
@@ -38,13 +31,7 @@ namespace ClockupStudio.BrideMateForever.Player
         public void OnMove(InputAction.CallbackContext ctx)
         {
             var vec2 = ctx.ReadValue<Vector2>();
-            Debug.Log(vec2);
-            if (vec2 == Vector2.left)
-                MoveCommand.Invoke(MoveKey.Left);
-            else if (vec2 == Vector2.right)
-                MoveCommand.Invoke(MoveKey.Right);
-            else
-                MoveCommand.Invoke(MoveKey.None);
+            MoveCommand.Invoke(vec2);
         }
 
         public void OnJump(InputAction.CallbackContext ctx)
