@@ -27,15 +27,16 @@ namespace ClockupStudio.BrideMateForever.NPCs
             );
         }
 
-        void OnTriggerEnter2D(Collider2D other) {
-            if(other.gameObject.tag.Equals("Ground"))
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.tag.Equals("Ground"))
             {
                 Debug.Log("Ground");
                 _body.velocity = new Vector2(0, 0);
                 _body.gravityScale = 0;
                 playerDead.Dead();
             }
-            else if(other.gameObject.tag.Equals("Player"))
+            else if (other.gameObject.tag.Equals("Player"))
             {
                 Debug.Log("Player");
                 _body.velocity = new Vector2(0, 0);
@@ -44,6 +45,16 @@ namespace ClockupStudio.BrideMateForever.NPCs
                 playerWin.Win();
                 gameObject.SetActive(false);
             }
+        }
+
+        private void OnBecameInvisible()
+        {
+            Debug.Log("Bye...");
+            _body.velocity = new Vector2(0, 0);
+            _body.gravityScale = 0;
+            playerDead.Dead();
+
+            gameObject.SetActive(false);
         }
     }
 }
