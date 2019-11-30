@@ -24,5 +24,23 @@ namespace ClockupStudio.BrideMateForever.NPCs
                 Random.Range(4f, 12f)
             );
         }
+        void OnCollisionEnter2D(Collision2D other) {
+            Debug.Log("Triggered");
+            if(other.gameObject.tag.Equals("Ground"))
+            {
+                Debug.Log("Ground");
+                _body.velocity = new Vector2(0, 0);
+            }
+        }
+
+        void OnTriggerEnter2D(Collider2D other) {
+            Debug.Log("Triggered");
+            if(other.gameObject.tag.Equals("Ground"))
+            {
+                Debug.Log("Ground");
+                _body.velocity = new Vector2(0, 0);
+                _body.gravityScale = 0;
+            }
+        }
     }
 }
