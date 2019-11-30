@@ -66,7 +66,12 @@ namespace ClockupStudio.BrideMateForever.Player
                 kind = ActionKind.Run;
             }
 
-            _anim.SetFloat(AnimationParameters.Blend, (int)kind);
+            Debug.Log($"UpdateAnimation: resolve animation {_anim.GetInteger("Action")}");
+            if (_anim.GetInteger("Action") == (int)kind)
+            {
+                return;
+            }
+            _anim.SetInteger("Action", (int)kind);
         }
     }
 }
