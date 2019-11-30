@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 namespace ClockupStudio.BrideMateForever.Player
 {
     public class PlayerWin : MonoBehaviour
@@ -29,6 +29,13 @@ namespace ClockupStudio.BrideMateForever.Player
 
             text.gameObject.SetActive(true);
             text.text = "YEAAAHHH!!";
+            StartCoroutine("Ending");
+        }
+
+        public IEnumerator Ending()
+        {
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene("Ending");
         }
     }
 }

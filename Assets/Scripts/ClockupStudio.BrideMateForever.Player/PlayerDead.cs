@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 namespace ClockupStudio.BrideMateForever.Player
 {
     public class PlayerDead : MonoBehaviour
@@ -30,6 +30,13 @@ namespace ClockupStudio.BrideMateForever.Player
 
             text.gameObject.SetActive(true);
             text.text = "Next time... maybe.";
+            StartCoroutine("Ending");
+        }
+
+        public IEnumerator Ending()
+        {
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene("Ending");
         }
     }
 }
