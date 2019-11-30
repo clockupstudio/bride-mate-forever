@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Wedding.unity
+    guid: 894af19f44dbf40d29dbfb311f22eaab
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: f9e9740afb9f64645a9cd5e2cb86679a
   m_configObjects: {}
