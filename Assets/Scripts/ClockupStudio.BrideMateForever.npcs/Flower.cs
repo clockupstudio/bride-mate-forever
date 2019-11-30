@@ -43,7 +43,6 @@ namespace ClockupStudio.BrideMateForever.NPCs
                 _body.gravityScale = 0;
 
                 playerWin.Win();
-                gameObject.SetActive(false);
             }
         }
 
