@@ -7,6 +7,7 @@ namespace ClockupStudio.BrideMateForever.NPCs
     public class Bride : MonoBehaviour
     {
         private Animator _animator;
+        public Flower flower;
         void Start()
         {
             _animator = GetComponent<Animator>();
@@ -15,6 +16,11 @@ namespace ClockupStudio.BrideMateForever.NPCs
         public void Throw()
         {
             _animator.SetBool("Throw", true);
+        }
+
+        public void ThrowEnd()
+        {
+            flower.Launch();
         }
 
         public void Idle()
