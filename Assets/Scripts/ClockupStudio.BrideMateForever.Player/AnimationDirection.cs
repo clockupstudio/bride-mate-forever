@@ -18,6 +18,7 @@ namespace ClockupStudio.BrideMateForever.Player
         Jump,
         Slide,
         Dead,
+        Win,
     }
 
     [RequireComponent(typeof(Animator))]
@@ -67,6 +68,10 @@ namespace ClockupStudio.BrideMateForever.Player
                 kind = ActionKind.Run;
             }
             else if (_anim.GetInteger("Action") == (int)ActionKind.Dead)
+            {
+                return;
+            }
+            else if (_anim.GetInteger("Action") == (int)ActionKind.Win)
             {
                 return;
             }
