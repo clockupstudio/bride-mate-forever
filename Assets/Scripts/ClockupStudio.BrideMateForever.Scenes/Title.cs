@@ -5,13 +5,15 @@ namespace ClockupStudio.BrideMateForever.Scenes
 {
     public class Title : MonoBehaviour
     {
-        
-        void Update()
+
+        public void ToGameScene()
         {
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                SceneManager.LoadScene("Game");
-            }
+            SceneManager.LoadScene("Game");
+        }
+
+        public void Exit()
+        {
+            Application.Quit();
         }
     }
 }
